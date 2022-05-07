@@ -2,6 +2,7 @@ package observer
 
 /**
  *  client code testing observer pattern
+ *  - Strive for loosely coupled objects in the system
  */
 fun main(){
 

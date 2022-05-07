@@ -1,0 +1,9 @@
+Come up with a real life example for this pattern
+
+- find a behaviour which changes across different types of particular class
+- eg FLY behaviour changes across different duck types.
+
+- encapsulate what varies
+- favour composition over inheritence
+- code to interfaces, not concrete implementations
+--------------------------------------------

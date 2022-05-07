@@ -6,6 +6,7 @@ import java.io.FileInputStream
 fun main() {
     /**
      * our decorator decorates the BufferedInput class and adds a custom behaviour
+     * - classes should be open for extension but closed for modifications
      */
 
     val inputStream = LowerCaseInputStream(
