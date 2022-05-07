@@ -7,6 +7,9 @@ class LowerCaseInputStream(inputStream: InputStream) : FilterInputStream(inputSt
 
     override fun read(): Int {
         val c =  super.read()
+        /**
+         * Added behaviour by our decorator
+         */
         if (c == -1){
             return -1
         }
